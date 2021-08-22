@@ -11,7 +11,7 @@
 	=> WHERE REGEXP_LIKE (CITY, '[AEIOU]$', 'i');<br>
 <br>
 <h4>2. 문자열에서 일부 문자열 출력하기</h4>
-1) SUBSTR 함수: 문자열의 일부 데이터를 추출하는 함수<br>  
+1) SUBSTR 함수: 문자열의 일부 데이터를 추출하는 함수<br/>  
 	(1) SELECT SUBSTR(NAME, 1, 1);<br>
 		=> NAME column을 첫 문자, 즉 성 추출<br>  
 	(2) SELECT SUBSTR(NAME, -4);<br>
