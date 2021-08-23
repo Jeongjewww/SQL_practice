@@ -16,3 +16,7 @@
 		=> NAME column을 첫 문자, 즉 성 추출<br>  
 	(2) SELECT SUBSTR(NAME, -4);<br>
 		=> NAME column의 마지막 네 자리 추출<br>
+<br>
+<h4>3. 알아둬야 할 문법 개념</h4>  
+- Oracle에서 조건문은 CASE WHEN (조건) THEN 결과 --- END;로 작성
+- WHEN절에서의 순서는 중요하다. 첫 번째 WHEN절을 만족하면 그 다음 WHEN절은 의미없다.
