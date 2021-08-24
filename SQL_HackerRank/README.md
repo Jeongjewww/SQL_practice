@@ -21,7 +21,7 @@
 	- 두 문자열을 합칠 때 사용 => CONCAT(NAME, OCCUPATION)<br>
 	- 세 개 이상의 문자열을 합칠 경우 => CONCAT(CONCAT(NAME, ' '), OCCUPATION)<br>
 	* || 기호를 이용할 시, 여러 문자열을 한 번에 합칠 수 있다.
-		=> SELECT NAME||' '||OCCUPATION
+		=> SELECT NAME||' '||OCCUPATION<br>
 <br>
 <h4>3. 알아둬야 할 문법 개념</h4>  
 - Oracle에서 조건문은 CASE WHEN (조건) THEN 결과 --- END;로 작성<br>
