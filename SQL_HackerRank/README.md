@@ -28,6 +28,11 @@ SELECT SUBSTR(NAME, -4);<br>
 <ol>- UPPER 함수: 모든 문자를 대문자로 변환<br>
 - LOWER 함수: 모든 문자를 소문자로 변환<br>
 - INTICAP 함수: 첫 문자는 대문자, 나머지는 소문자로 변환</ol><br>
+
+<strong>4) CEIL, ROUND, TRUNC 함수</strong>
+<ol>- CEIL: 소수점 올림<br>
+- ROUND: 소수점 반올림<br>
+- TRUNC: 소수점 버림<br></ol>
 </p>
 <h3>3. 알아둬야 할 문법 개념</h3>  
 - Oracle에서 조건문은 CASE WHEN (조건) THEN 결과 --- END;로 작성<br>
